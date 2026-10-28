@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Manoj Kumar D | Data Analyst – SQL, Power BI, Python</title>
+  <meta name="description" content="Portfolio of Manoj Kumar D, a Data Analyst skilled in SQL, Advanced Excel, Power BI, MySQL and Python. Dashboards, KPI reporting and data-driven insights." />
+  <meta name="theme-color" content="#0e1020" />
+
+  <!-- Fonts (free, Google Fonts) and icons (free, Font Awesome via cdnjs) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="Manoj Kumar D – home">Manoj Kumar D</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="hello">Hi, I'm</p>
+          <h1>Manoj Kumar D</h1>
+          <p class="role">Data Analyst</p>
+          <p class="intro">
+            I turn raw operational data into clear dashboards and KPI reports. I work with SQL, Power BI,
+            Advanced Excel and Python to clean, validate and analyse data so teams can make confident decisions.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/manojkumard2402-spec" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/manojkumard-un" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="mailto:manojkumard2402@gmail.com" aria-label="Send an email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <!-- Hero visual: a query window. Decorative, uses no invented data. -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="query-card">
+            <div class="query-bar"><span></span><span></span><span></span></div>
+            <pre><code><span class="k">SELECT</span> skills
+<span class="k">FROM</span>   manoj_kumar_d
+<span class="k">WHERE</span>  role = <span class="s">'Data Analyst'</span>;
+
+<span class="c">-- SQL | Excel | Power BI</span>
+<span class="c">-- Python | MySQL | DAX</span></code></pre>
+          </div>
+          <!-- PROFILE PHOTO: replace the initials below with
+               <img src="profile.jpg" alt="Photo of Manoj Kumar D" /> -->
+          <div class="avatar" title="[Add Profile Photo]">MK</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container narrow reveal">
+        <h2>About me</h2>
+        <p>
+          I'm an analytical, detail-oriented data analyst with experience in data reporting, business intelligence,
+          application support and data operations. I enjoy extracting, cleaning, validating and transforming data,
+          then turning it into dashboards and KPI reports that show what is happening and why.
+        </p>
+        <p>
+          I analyse operational datasets to find trends, generate actionable insights and support data-driven
+          decision-making. My toolkit covers SQL, Advanced Excel, Power BI, MySQL and Python.
+        </p>
+        <ul class="facts">
+          <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Kallakurichi, Tamil Nadu, India</li>
+          <li><i class="fa-solid fa-language" aria-hidden="true"></i> English, Tamil</li>
+          <li><i class="fa-solid fa-envelope" aria-hidden="true"></i> manojkumard2402@gmail.com</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section id="education" class="section alt">
+      <div class="container narrow reveal">
+        <h2>Education</h2>
+        <article class="card edu">
+          <i class="fa-solid fa-graduation-cap icon" aria-hidden="true"></i>
+          <div>
+            <h3>Bachelor of Engineering (B.E) – Computer Science and Technology</h3>
+            <p>Karpagam College of Engineering</p>
+            <p class="meta">CGPA: 7.5 / 10 &nbsp;|&nbsp; [Add graduation year]</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="reveal">Technical skills</h2>
+        <div class="skill-grid">
+          <article class="card reveal">
+            <h3><i class="fa-solid fa-code" aria-hidden="true"></i> Programming and query languages</h3>
+            <ul class="badges"><li>SQL</li><li>Python</li><li>DAX</li></ul>
+          </article>
+          <article class="card reveal">
+            <h3><i class="fa-solid fa-chart-column" aria-hidden="true"></i> BI and visualization</h3>
+            <ul class="badges"><li>Power BI</li><li>Power BI Service</li><li>Power Query</li><li>Power Pivot</li><li>Advanced Excel</li></ul>
+          </article>
+          <article class="card reveal">
+            <h3><i class="fa-solid fa-database" aria-hidden="true"></i> Databases and warehousing</h3>
+            <ul class="badges"><li>MySQL</li><li>Data Modelling</li><li>Data Migration</li></ul>
+          </article>
+          <article class="card reveal">
+            <h3><i class="fa-solid fa-cubes" aria-hidden="true"></i> Libraries</h3>
+            <ul class="badges"><li>Pandas</li><li>NumPy</li></ul>
+          </article>
+          <article class="card reveal">
+            <h3><i class="fa-solid fa-broom" aria-hidden="true"></i> Data management</h3>
+            <ul class="badges"><li>Data Cleaning</li><li>Data Transformation</li><li>Data Validation</li><li>Data Reconciliation</li><li>ETL Processes</li><li>Exploratory Data Analysis</li></ul>
+          </article>
+          <article class="card reveal">
+            <h3><i class="fa-solid fa-chart-line" aria-hidden="true"></i> Analytics and reporting</h3>
+            <ul class="badges"><li>Sales Analytics</li><li>Revenue Analysis</li><li>Customer Analytics</li><li>Customer Segmentation</li><li>Lead Conversion Analysis</li><li>Customer Churn Analysis</li><li>KPI Reporting</li><li>Data Visualization</li><li>Dashboard Development</li><li>Reporting Automation</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience" class="section alt">
+      <div class="container narrow">
+        <h2 class="reveal">Experience and internship</h2>
+        <div class="timeline">
+          <article class="card timeline-item reveal">
+            <div class="timeline-head">
+              <div>
+                <h3>Data Analyst Intern</h3>
+                <p class="company">Besant Technologies</p>
+              </div>
+              <span class="date">June 2026 – November 2026</span>
+            </div>
+            <ul class="list">
+              <li>Worked hands-on with SQL, Advanced Excel, Power BI, Python and data analysis concepts on real-world datasets.</li>
+              <li>Cleaned, transformed and validated structured datasets, and ran exploratory data analysis (EDA).</li>
+              <li>Built interactive Power BI dashboards and reports covering KPIs, sales trends and business performance.</li>
+              <li>Wrote SQL queries to extract, filter, join and analyse data from relational databases.</li>
+              <li>Created reports and presented analytical insights to support data-driven decision-making.</li>
+              <li>Covered the full data analysis lifecycle: data preparation, visualization, reporting and business insights.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="reveal">Featured projects</h2>
+        <div class="project-grid">
+          <article class="card project reveal">
+            <h3>COVID-19 Analytics Dashboard</h3>
+            <p>
+              An interactive dashboard built from public COVID-19 datasets, designed to show trends and key
+              metrics at a glance.
+            </p>
+            <ul class="badges"><li>Excel</li><li>SQL</li><li>Power BI</li></ul>
+            <ul class="list">
+              <li>Imported and cleaned COVID-19 datasets from public sources.</li>
+              <li>Ran EDA to identify trends and patterns, and wrote SQL queries to pull out insights.</li>
+              <li>Designed Power BI dashboards with filters and slicers.</li>
+              <li>Visualized total cases, active cases, recoveries and death rates.</li>
+              <li>Delivered reports to support data-driven decision-making.</li>
+            </ul>
+            <!-- Replace these placeholders with real links, e.g. <a class="btn btn-small" href="...">GitHub</a> -->
+            <div class="project-links">
+              <span class="placeholder">[Add Project GitHub URL]</span>
+              <span class="placeholder">[Add Live Demo or Dashboard URL]</span>
+            </div>
+          </article>
+        </div>
+        <p class="more reveal">
+          More work on
+          <a href="https://github.com/manojkumard2402-spec" target="_blank" rel="noopener noreferrer">my GitHub profile</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS ============ -->
+    <section id="certifications" class="section alt">
+      <div class="container narrow">
+        <h2 class="reveal">Certifications and achievements</h2>
+        <ul class="cert-list">
+          <li class="card reveal"><i class="fa-solid fa-certificate" aria-hidden="true"></i> SQL for Data Analytics</li>
+          <li class="card reveal"><i class="fa-solid fa-certificate" aria-hidden="true"></i> Python for Data Analytics</li>
+          <li class="card reveal"><i class="fa-solid fa-certificate" aria-hidden="true"></i> Power BI for Data Analytics</li>
+          <li class="card reveal"><i class="fa-solid fa-certificate" aria-hidden="true"></i> Advanced Excel for Data Analytics</li>
+        </ul>
+        <p class="note reveal">[Add achievements, if any]</p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <h2>Get in touch</h2>
+          <p>I'm open to data analyst and entry-level analytics roles. Send me a message or reach out directly.</p>
+          <ul class="contact-list">
+            <li><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a href="mailto:manojkumard2402@gmail.com">manojkumard2402@gmail.com</a></li>
+            <li><i class="fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+918072416783">+91 8072416783</a></li>
+            <li><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/manojkumard-un" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/manojkumard2402-spec" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          </ul>
+        </div>
+
+        <form id="contactForm" class="card reveal" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+            <small class="error" id="nameError" role="alert"></small>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+            <small class="error" id="emailError" role="alert"></small>
+          </div>
+          <div class="field">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" required />
+            <small class="error" id="subjectError" role="alert"></small>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <small class="error" id="messageError" role="alert"></small>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          <p class="note">
+            Note: a static website cannot send email by itself. This form validates your input and then opens your
+            email app with the message filled in. For real delivery, connect a backend or a free form service
+            (for example Formspree or Netlify Forms).
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Manoj Kumar D. All rights reserved.</p>
+      <div class="socials">
+        <a href="https://github.com/manojkumard2402-spec" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/manojkumard-un" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
